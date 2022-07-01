@@ -1,13 +1,2 @@
-#include <stdio.h>
-
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	gcc -S -masm=intel -Wall -Werror -Wextra -pedantic -std=gnu89 $CFILE && c=$(echo $CFILE | cut -c1) && cat $c*.s > c
-	return (0);
-}
-
+#!/bin/bash
+gcc -S -masm=intel -Wall -Werror -Wextra -pedantic -std=gnu89 $CFILE && c=$(echo $CFILE | cut -c1) && cat $c*.s > c
