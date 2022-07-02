@@ -13,8 +13,8 @@ int main(void)
 	int n, m, y, x;
 
 	n = 65;
-	m = 97;
-	x = 91;
+	m = 91;
+	x = 97;
 	y = 122;
 	/* LOWERCASE ALPHABET LOOP */
 	while (x <= y)
