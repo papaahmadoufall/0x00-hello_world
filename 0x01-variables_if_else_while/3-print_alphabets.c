@@ -14,7 +14,7 @@ int main(void)
 
 	n = 65;
 	m = 97;
-	x = 97;
+	x = 91;
 	y = 122;
 	/* LOWERCASE ALPHABET LOOP */
 	while (x <= y)
