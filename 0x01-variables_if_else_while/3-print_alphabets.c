@@ -13,7 +13,7 @@ int main(void)
 	int n, m, y, x;
 
 	n = 65;
-	m = 9;
+	m = 91;
 	x = 97;
 	y = 122;
 	/* LOWERCASE ALPHABET LOOP */
