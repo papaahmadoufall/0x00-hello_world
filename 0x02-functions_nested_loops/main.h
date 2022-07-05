@@ -1,4 +1,8 @@
-void show()
+void print_alphabet()
 {
-	printf("_putchar\n");
+	int i;
+
+	for (i = 97; i <= 122; i++)
+		putchar(i);
+	putchar('\n');
 }
