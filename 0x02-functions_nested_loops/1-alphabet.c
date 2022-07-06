@@ -1,15 +1,17 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 #include "main.h"
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
- */
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
 
+/**
+ * print_alphabet -  prints the alphabet, in lowercase, followed by a new line
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+
+void print_alphabet(void)
+{
+	int i;
+
+	for (i = 97; i <= 122; i++)
+		_putchar(i);
+	_putchar('\n');
+}
